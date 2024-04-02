@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Inspiration&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Mono+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  background: url(images/pexels-hoang-le-1042423.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  gap: 5px;
+}
+p {
+  font-size: 50px;
+}
+h1 {
+  font-family: "Rubik Mono One", monospace;
+  font-size: 50px;
+  margin-top: 30px;
+}
+
+.box {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+
+.box h2 {
+  font-size: 20px;
+  font-weight: 500px;
+}
+.box small {
+  font-size: 13px;
+}
+
+@media (min-width: 576px) {
+  .newyear {
+    font-size: 100px;
+  }
+  p {
+    font-size: 18px;
+  }
+  .box h2 {
+    font-size: 30px;
+  }
+  .box {
+    width: 100px;
+    height: 100px;
+  }
+  .box small {
+    font-size: 15px;
+  }
+}
+@media (min-width: 768px) {
+  .newyear {
+    font-size: 150px;
+  }
+  p {
+    font-size: 25px;
+  }
+  .box h2 {
+    font-size: 50px;
+  }
+  .box {
+    width: 150px;
+    height: 150px;
+  }
+  .box small {
+    font-size: 20px;
+  }
+}
